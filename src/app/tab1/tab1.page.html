@@ -1,17 +1,50 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-title>
-      Tab 1
+      filmes
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <h1>Um dia de chuva em NY</h1>
+        <h2>26 de junho de 2019</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/nmlpEQuemz1OMEAVLP5RA8pZUML.jpg" />
+        <p> Apaixonado por Nova York, Gatsby (Timothée Chalamet) decide passar um fim de semana na cidade ao lado de
+          Ashleigh (Elle Fanning), sua namorada. No entanto, aquilo…</p>
+        <ion-button expand="block" fill="outline">Mais informações...</ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <h1>Troco em dobro</h1>
+        <h2>6 de março de 2020</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/d41HWbZnf7A4EI89p0dxjp7w3lP.jpg" />
+        <p> Spenser, um ex-policial e ex-presidiário, e o aspirante a lutador Hawk se unem para investigar uma
+          conspiração ligada a morte de dois oficiais de Boston.</p>
+        <ion-button expand="block" fill="outline">Mais informações...</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6">
+        <h1>Bloodshot</h1>
+        <h2>20 de fevereiro de 2020</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/1khQF2WnURHo8MeD8Uup9ihroFG.jpg" />
+        <p> Bloodshot é um ex-soldado com poderes especiais, o de regeneração e a capacidade de se metamorfosear. Essas
+          capacidades foram desenvolvidas por ele após injetarem…</p>
+        <ion-button expand="block" fill="outline">Mais informações...</ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <h1>Sonic: O filme</h1>
+        <h2>12 de fevereiro de 2020</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/Kt9iFdTu5TbAm7tNfc876mrWU.jpg" />
+        <p> Sonic, o ouriço azul mais famoso do mundo, se junta com os seus amigos para derrotar o terrível Doutor
+          Eggman, um cientista louco que planeja dominar o mundo, e…</p>
+        <ion-button expand="block" fill="outline">Mais informações...</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
